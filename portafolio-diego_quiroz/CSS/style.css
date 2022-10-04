@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body{
+  background-color: #242635;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.subtitle{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+header{
+  text-align: right;
+}
+
+.nav-menu a{
+  text-decoration: none;
+  color: #FFF;
+  padding-right: 3em;
+  
+}
+.nav-menu a:hover{
+  color: #32b0be;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  display: grid;
+  justify-content: center;
+}
+
+.circle{
+  display: flex;
+  
+  
+}
+.half-circle1{
+  position: relative;
+  width: 600px;
+  rotate: 90deg;
+  text-align: center;
+  margin-top: 200px;
+  margin-right: -75px;
+  filter: invert(77%) sepia(0%) saturate(917%) hue-rotate(140deg) brightness(105%) contrast(99%);
+  z-index: -1;
+}
+
+.half-circle2{
+  position: relative;
+  width: 600px;
+  rotate: -90deg;
+  margin-top: 200px;
+  margin-left: -200px;
+  filter: invert(77%) sepia(0%) saturate(917%) hue-rotate(140deg) brightness(105%) contrast(99%);
+  z-index: -1;
+  
+}
+
+.photo-profile{
+  display:flex;
+  z-index: 1;
+  position: relative;
+  left: 16vw;
+  bottom:34vw;
+  height: 41vw;
+}
+.data{
+  position: relative;
+  width: max-content;
+  left: -2vw;
+  top: -73vw;
+}
+
+.decoration-line{
+  width: 200px;
+  align-content: left;
+  color: #FFF;
+}
+#first-icons{
+  width:4vw ;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.logo-images{
+  display: flex;
+  position: relative;
+  background-color: #635f59;
+  flex-direction: row;
+  justify-content: center;
+  width: 900px;
+  height: 110px;
+  margin-top:-65vw;
+  z-index: 2;
+}
+
+#logo{
+  background-color:#fff;
+  width: 90px; 
+  border-radius: 10%;
+}
+.photo-data{
+  justify-content: center;
+  margin:0 50vw 0 65vw
+}
+.about-me{
+  margin: 0 50vw 0 50vw;
+  text-align: center;
+}
+
+
+.images-services{
+  display: flex;
+  margin: 0 50vw 0 40vw;
+  text-align: center;
+}
+
+.images-services div{
+  position: relative;
+  text-emphasis:center;
+  background-color: #FFF;
+  width: min-content;
+  height: 50vh;
+  margin-left: 10em;
+  z-index: -1;
+}
+
+#pencil{
+  position: relative;
+  margin-top: -10em;
+  z-index: 1;
+}
+
+#speaker{
+  position: relative;
+  margin-top: -10em;
+  z-index: 1;
+}
+
+#search{
+  position: relative;
+  margin-top: -10em;
+  z-index: 1;
+}
+
+.progress-bar{
+  display: grid;
+  width: 80vw;
+}
+
+.portfolio{
+  display: flex;
+  margin: 0 2 0 2;
+  width: min-content;
+}
+
+#ejemplo-img{
+  margin-right: 1em;
+}
+
+.images-contact{
+  display: flex;
+  margin: 0 50vw 0 40vw;
+  text-align: center;
+}
+
+.images-contact div{
+  position: relative;
+  text-emphasis:center;
+  background-color: #FFF;
+  width: min-content;
+  height: 50vh;
+  margin-left: 10em;
+  z-index: -1;
+}
+
+#phone{
+  position: relative;
+  margin-top: -10em;
+  z-index: 1;
+}
+
+#mail{
+  position: relative;
+  margin-top: -10em;
+  z-index: 1;
+}
+
+footer{
+  text-align: center;
+}
+.footer{
+  color: #32b0be;
+  
+}
+
+@media (min-width:300px) and (max-width:900px){
+  .container{
+    display:inline-flex
+  }
+}
+
+
